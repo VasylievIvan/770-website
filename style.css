@@ -79,8 +79,29 @@ body {
 .main {
 	background-image: url('img/main-background.png');
 	    background-position-y: -70px;
-}
 
+}
+.main-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.side-features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 125px;
+	text-align: center;
+	max-height: 500px;
+	margin-top: 75px;
+}
+.side-feature {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
 .slider {
 	display: flex;
 	flex-direction: column;
@@ -89,16 +110,16 @@ body {
 }
 .slider h1 {
 	font-size: 48px;
-	color: #333333;
-	font-weight: 700;
+	color: #14508a;
+	font-weight: 900;
 	text-transform: uppercase;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
 .slider h2 {
 	font-size: 24px;
-	font-weight: 300;
-	color: #333333;
+	font-weight: 400;
+	color: #14508a;
 	text-transform: uppercase;
 	margin-top: 10px;
 }
@@ -116,6 +137,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 41px;
+	
 }
 .main-feature {
 	display: flex;
